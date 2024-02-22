@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Share+Tech+Mono&family=Tangerine:wght@700&family=Open+Sans:ital@1&family=Poppins:wght@200&display=swap');
+
+@import "../styles/component/Home.css";
+@import "../styles/component/Navbar.css";
+@import "../styles/component/Contact.css";
+@import "../styles/component/Slogam.css";
+@import "../styles/component/TwoColumnWithGap.css";
+@import "../styles/component/TwoColumnSection.css";
+@import "../styles/component/Card.css";
+@import "../styles/component/PriceCard.css";
+@import "../styles/component/Footer.css";
+@import "../styles/component/FeedbackWidget.css";
+@import "../styles/component/DarkMode.css";
+body{
+    background-color: #F2F3F4;
+}
+.whole-page{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+p,span,h1,h2,h3,h4,h5,h6{
+    letter-spacing: 1px;
+}
+
+h2{
+    font-family: 'Tangerine',cursive;
+}
+h1,h3,h4,h5,h6{
+    font-family:'Open sans';
+}
+p,span{
+    font-family: 'Poppins';
+}
+/* input,a,label,button{
+    font-family: 'Share Tech Mono', monospace;
+} */
+.uppercase{
+    text-transform:uppercase;
+}
+.captialize{
+    text-transform: capitalize;
+}
+.popup{
+    position: fixed;
+    top:1%;
+    right: 1%;
+    border-radius: 5px;
+    transition: 1.4s;
+}
+.popup-close-button{
+    margin-top: 2px;
+    cursor: pointer;
+}

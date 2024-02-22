@@ -1,0 +1,19 @@
+.two-column-section .two-column{
+    margin-top: 2%;
+    margin-inline: 10%;
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+.two-column-section .two-column .left-column{
+    background-color: #7FB3D5;
+    padding: 2%;
+    width: 100%;
+}
+
+.two-column-section .two-column .left-column .left-column-contents .left-column-content,
+.two-column-section .two-column .left-column .left-column-heading{
+    margin-inline: 10%;
+    margin-block: 5%;
+    color: whitesmoke;
+    font-size: 19px;
+}

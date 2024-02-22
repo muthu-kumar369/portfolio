@@ -1,0 +1,104 @@
+.feedback-widget-section .feedback-widget {
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    /* padding: 2%; */
+}
+.feedback-widget-section .popup{
+    color:white;
+    font-size: large;
+    position:fixed;
+    top:15%;
+}
+.feedback-widget-section .popup.success{
+    background-color: #52BE80;
+}
+.feedback-widget-section .popup.error{
+    background-color: #FF3C33;
+}
+.feedback-widget-section .feedback-widget .feedback-button {
+    background-color: #1E90FF;
+    border-radius: 10px;
+}
+
+.feedback-widget-section .feedback-widget .feedback-button:hover {
+    background-color: #449ff9;
+}
+
+.feedback-widget-section .feedback-widget .feedback-button .feedback-spell {
+    display: none;
+}
+
+.feedback-widget-section .feedback-widget .feedback-button:hover .feedback-spell {
+    display: flex;
+    color: white;
+    transition: 2.5s;
+}
+
+.feedback-widget-section .feedback-widget .feedback-button .feedback-icon-down-arrow {
+    border-radius: 50%;
+}
+
+.feedback-widget-section .feedback-widget .modal .modal-form {
+    position: fixed;
+    right: 2%;
+    bottom: 9%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.feedback-widget-section .feedback-widget .modal .modal-form .modal-content .modal-header {
+    padding:4% 2%;
+    background-color: #1E90FF;
+    color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.feedback-widget-section .feedback-widget .modal .modal-form .modal-content .modal-body {
+    padding: 3%;
+    background-color: white;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+/* .feedback-widget-section .feedback-widget .modal .modal-form .modal-content .modal-body .form-input {
+    padding-top: 2%;
+} */
+
+.feedback-widget-section .feedback-widget .modal .modal-form .modal-content .modal-body .form-input .form-label {
+    display: block;
+    color: black;
+}
+
+.feedback-widget-section .feedback-widget .modal .modal-form .modal-content .modal-body .form-input .form-control {
+    display: block;
+    width: 100%;
+    background-color: inherit;
+    /* padding: 1%; */
+    color: black;
+    border: none;
+    border-bottom: 1px solid #1E90FF;
+}
+
+.feedback-widget-section .feedback-widget .modal .modal-form .modal-content .modal-body .form-input .form-error {
+    color: red;
+}
+
+.feedback-widget-section .feedback-widget .modal .modal-form .modal-content .modal-body .form-submit .form-button {
+    /* padding: 5px; */
+    background-color: #1E90FF !important;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top: 8px;
+    color: white;
+    padding-inline: 2%;
+}
+.feedback-widget-section .feedback-widget .modal .modal-form .modal-content .modal-body .form-submit .form-button .form-spinner{
+    transition: 0.9s;
+    animation:1.5s linear infinite spinner;
+    will-change: transform;    
+}
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+  }

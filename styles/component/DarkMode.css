@@ -1,0 +1,15 @@
+.dark-mode-section .dark-mode{
+    position: fixed;
+    right: 1%;
+    bottom: 1%;
+    border-radius: 10px;
+}
+
+/* @media only screen and (min-width:768px){
+    .dark-mode{
+        position: fixed;
+        right: 1%;
+        top: 1%;
+        border-radius: 10px;
+    }
+} */

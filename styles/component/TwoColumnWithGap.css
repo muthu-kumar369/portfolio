@@ -1,0 +1,41 @@
+.two-column-with-gap-section .two-column-with-gap {
+    margin-top: 2%;
+    margin-inline: 10%;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+
+.two-column-with-gap-section .two-column-with-gap .left-column {
+    background-color: #2E86C1;
+    padding: 2%;
+    width: 100%;
+}
+
+.skills-icon {
+    padding-right: 2%;
+}
+.two-column-with-gap-section .two-column-with-gap .left-column .left-column-contents .left-column-content,
+.two-column-with-gap-section .two-column-with-gap .left-column .left-column-heading{
+    margin-inline: 10%;
+    margin-block: 5%;
+    color: whitesmoke;
+    font-size:22px;
+}
+
+.two-column-with-gap-section .two-column-with-gap .left-column .icon-with-skill
+{
+    margin-inline: 10%;
+    margin-block: 5%;
+    color: whitesmoke;
+    font-size: 19px;
+}
+.two-column-with-gap-section .two-column-with-gap .left-column .left-column-button {
+    margin-inline: 10%;
+    margin-block: 5%;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+}
+.two-column-with-gap-section .two-column-with-gap .left-column .left-column-button:hover {
+    background-color: rgb(242, 241, 241);
+}

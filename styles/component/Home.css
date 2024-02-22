@@ -1,0 +1,42 @@
+.home-component{
+    padding: 5%;
+    padding-top: 10%;
+    height: 100%;
+}
+.home-component .home-right-column .profile-image{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-image: url('../../public/images/myimage.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-component .home-left-column{
+    vertical-align: middle;
+    font-size: large
+}
+.home-component .home-left-column .home-buttons a{
+    padding: 1% 2%;
+    background-color: #3498DB ;
+    border-radius: 5px;
+    color: white;
+}
+.home-component .home-left-column .home-buttons a:hover{
+    background-color: #35a6f2;
+}
+.home-component .home-left-column .home-name .name-color{
+    color: #3498DB;
+}
+
+@media only screen and (min-width:1440px){
+    .home-component .home-right-column .profile-image{
+        width: 260px;
+        height: 260px;
+    }
+}
+@media only screen and (min-width:1860px){
+    .home-component .home-right-column .profile-image{
+        width: 480px;
+        height: 450px;
+    }
+}

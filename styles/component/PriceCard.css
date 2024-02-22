@@ -1,0 +1,31 @@
+.plan-section .plan{
+    margin-inline: 10%;
+    margin-top: 5%;
+}
+.plan-section .plan .plan-card-highlight{
+    background-color: #BDC3C7 ;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+.plan-section .plan .plan-card-highlight .plan-name{
+    font-size: 23px;
+}
+.plan-section .plan .plan-card{
+    background-color: #BDC3C7 ;
+    border-radius: 5px;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.plan-section .plan .plan-card .plan-name{
+    font-size: 23px;
+}
+.plan-section .plan .plan-card .price,.plan-section .plan .plan-card-highlight .price{
+    margin-left: 37%;
+    font-size: 30px;
+}
+.plan-section .plan .plan-card .price-detail,.plan-section .plan .plan-card-highlight .price-details .price-detail{
+    margin-inline: 15%;
+    font-size: large;
+}
+

@@ -1,0 +1,87 @@
+.contact-section .contact-page{
+    margin-inline:10%;
+    margin-top:5%;
+    margin-bottom: 3%;
+    border-radius: 5px;
+}
+.contact-section .popup{
+    color: white;
+    font-size: large;
+    position: fixed;
+    top:15%;
+}
+.contact-section .popup.success{
+    background-color:#52BE80;
+}
+.contact-section .popup.error{
+    background-color:#FF3C33;
+}
+/* Form start */
+.contact-section .contact-page .form{
+    background-color: yellow;
+    padding:10% 2%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.contact-section .contact-page .form .form-input .form-error{
+    color: red;
+}
+.contact-section .contact-page .form .form-input .form-label{
+    display: block;
+    color: black;
+}
+.contact-section .contact-page .form .form-input .form-control{ 
+    display: block;
+    width: 100%;
+    background-color: inherit;
+    padding: 1%;
+    color: black;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.contact-section .contact-page .form .form-input{
+    padding-top: 2%;
+}
+.contact-section .contact-page .form .form-submit .form-button{
+    padding: 5px;
+    background-color: #1E90FF !important;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    margin-top:8px ;
+    color: white;
+}
+.contact-section .contact-page .form .form-submit .form-button:hover{
+    background-color: #449ff9 !important;
+}
+.contact-section .contact-page .form .form-submit .form-button .form-spinner{
+    transition: 0.9s;
+    animation:1.5s linear infinite spinner;
+    will-change: transform;
+}
+@keyframes spinner {
+    to {transform: rotate(360deg);}
+  }
+/* Form end */
+
+/* contact details start */
+.contact-section .contact-page .contact-details{
+    background-color: #353935;
+    color: white;
+    padding:10% 5%;
+    overflow: hidden;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 19px;
+}
+.contact-section .contact-page .contact-details .contact-heading{
+    text-align: center;
+    font-size: 21px;
+}
+.contact-section .contact-page .contact-details .contact-info{
+    margin-top: 2%;
+}
+.contact-section .contact-page .contact-details .contact-info .contact-icon{
+    margin-top: 1%;
+    padding-right: 1%;
+}
+/* constact details end */
